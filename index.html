@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon2.ico">
+</head>
+<body>
+  <div class="text">
+    <h1>Memory Game</h1>
+    <h3> Match the cards to make AMERICA great again</h3>
+    <h3 class="score">Score:&nbsp;<span class="result"></span></h3>
+    <h3 class="timer">Timer:&nbsp;<span class="time"><span class="minutes">00</span> : <span class="seconds">00</span></span></h3>
+    </div>
+  </div>
+  <div class="board"></div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- 
+Hard to implement:
+
+Known bugs:
+1. More than 2 cards can be flipped at the same time.
+2. It's possible for one card to remain unflipped. 
+3. The time doesn't show a whole minute (1:00, 2:00 etc.)
+4. Each click on card activates the timer, instead of only once at the first click.
+
+To do:
+1. Lock cards after win + after flipping two similar cards
+2. Stop timer after win/lose
+3. Add reset button
+4. Add flipping animation
+-->
