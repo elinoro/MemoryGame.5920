@@ -98,10 +98,11 @@ function checkForMatch(){
   cardsChosen = [];
   cardsChosenId = [];
   resultDisplay.textContent = cardsWon.length+"/6";
+  lockBoard = false;
   if(cardsWon.length === cardArray.length/2){
     resultDisplay.textContent = "You did it! AMERICA is great again!"
+    lockBoard = true;
   }
-  lockBoard = false;
 }
 
 createBoard();
