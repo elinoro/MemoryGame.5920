@@ -28,7 +28,6 @@ body{
 }
 
 .card{
-  height: calc(90%);
   width: calc(22%);
   height: calc(30%);
   background: white;
@@ -61,7 +60,7 @@ h3{
 
   .board{
     height: 380px;
-    width: 380px;
+    width: 300px;
     padding: 2px;
     margin:  30px auto;
   }
@@ -76,6 +75,8 @@ h3{
 
   .card{
     margin: 2px;
+    width: calc(30%);
+    height: calc(22%);
   }
 }
 
@@ -100,8 +101,14 @@ h3{
     font-size: 1em;
   }
 
+  .timer{
+    margin-bottom: 30px;
+  }
+
   .card{
     margin: 2px;
+    width: calc(30%);
+    height: calc(22%);
   }
 }
 

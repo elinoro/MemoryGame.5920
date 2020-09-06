@@ -49,6 +49,7 @@ const cardArray = [
   }
 ];
 
+//shuffle cards
 cardArray.sort(() => 0.5-Math.random());
 
 const board = document.querySelector('.board');
